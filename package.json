@@ -1,0 +1,23 @@
+{
+  "name": "typescript-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "JAVA_HOME=/Users/kitjonathante/Downloads/jdk-11.0.7.jdk/Contents/Home ./node_modules/.bin/wdio wdio.conf.js",
+    "test:cucumber": "./node_modules/.bin/cucumber-js -p default"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.11",
+    "@wdio/cucumber-framework": "^6.1.8",
+    "@wdio/local-runner": "^6.1.11",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.1.9",
+    "@wdio/sync": "^6.1.8",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
