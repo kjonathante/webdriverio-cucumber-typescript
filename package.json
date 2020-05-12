@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "JAVA_HOME=/Users/kitjonathante/Downloads/jdk-11.0.7.jdk/Contents/Home ./node_modules/.bin/wdio wdio.conf.js",
+    "test:search": "JAVA_HOME=/Users/kitjonathante/Downloads/jdk-11.0.7.jdk/Contents/Home ./node_modules/.bin/wdio wdio.conf.js --spec ./features/Search/DressSearch.feature",
+    "test:navigation": "JAVA_HOME=/Users/kitjonathante/Downloads/jdk-11.0.7.jdk/Contents/Home ./node_modules/.bin/wdio wdio.conf.js --spec ./features/Navigation/MenuNavigation.feature",
     "test:cucumber": "./node_modules/.bin/cucumber-js -p default"
   },
   "keywords": [],
