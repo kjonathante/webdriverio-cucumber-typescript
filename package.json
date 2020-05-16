@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@applitools/eyes-webdriverio": "^5.10.1",
     "@types/cucumber": "^6.0.1",
     "@wdio/cli": "^6.1.11",
     "@wdio/cucumber-framework": "^6.1.8",
